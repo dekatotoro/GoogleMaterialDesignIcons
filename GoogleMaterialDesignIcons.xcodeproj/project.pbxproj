@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C539E6811A355B90003B7CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539E6801A355B90003B7CC7 /* AppDelegate.swift */; };
+		C539E6841A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C539E6821A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodeld */; };
+		C539E6861A355B90003B7CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539E6851A355B90003B7CC7 /* ViewController.swift */; };
+		C539E6891A355B90003B7CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C539E6871A355B90003B7CC7 /* Main.storyboard */; };
+		C539E68B1A355B90003B7CC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C539E68A1A355B90003B7CC7 /* Images.xcassets */; };
+		C539E68E1A355B90003B7CC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C539E68C1A355B90003B7CC7 /* LaunchScreen.xib */; };
+		C539E69A1A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539E6991A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C539E6941A355B90003B7CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C539E6731A355B90003B7CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C539E67A1A355B90003B7CC7;
+			remoteInfo = GoogleMaterialDesignIcons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C539E67B1A355B90003B7CC7 /* GoogleMaterialDesignIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMaterialDesignIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C539E67F1A355B90003B7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C539E6801A355B90003B7CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C539E6831A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleMaterialDesignIcons.xcdatamodel; sourceTree = "<group>"; };
+		C539E6851A355B90003B7CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C539E6881A355B90003B7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C539E68A1A355B90003B7CC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C539E68D1A355B90003B7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C539E6931A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMaterialDesignIconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C539E6981A355B90003B7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C539E6991A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMaterialDesignIconsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C539E6781A355B90003B7CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C539E6901A355B90003B7CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C539E6721A355B90003B7CC7 = {
+			isa = PBXGroup;
+			children = (
+				C539E67D1A355B90003B7CC7 /* GoogleMaterialDesignIcons */,
+				C539E6961A355B90003B7CC7 /* GoogleMaterialDesignIconsTests */,
+				C539E67C1A355B90003B7CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C539E67C1A355B90003B7CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C539E67B1A355B90003B7CC7 /* GoogleMaterialDesignIcons.app */,
+				C539E6931A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C539E67D1A355B90003B7CC7 /* GoogleMaterialDesignIcons */ = {
+			isa = PBXGroup;
+			children = (
+				C539E6801A355B90003B7CC7 /* AppDelegate.swift */,
+				C539E6851A355B90003B7CC7 /* ViewController.swift */,
+				C539E6871A355B90003B7CC7 /* Main.storyboard */,
+				C539E68A1A355B90003B7CC7 /* Images.xcassets */,
+				C539E68C1A355B90003B7CC7 /* LaunchScreen.xib */,
+				C539E6821A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodeld */,
+				C539E67E1A355B90003B7CC7 /* Supporting Files */,
+			);
+			path = GoogleMaterialDesignIcons;
+			sourceTree = "<group>";
+		};
+		C539E67E1A355B90003B7CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C539E67F1A355B90003B7CC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C539E6961A355B90003B7CC7 /* GoogleMaterialDesignIconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C539E6991A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift */,
+				C539E6971A355B90003B7CC7 /* Supporting Files */,
+			);
+			path = GoogleMaterialDesignIconsTests;
+			sourceTree = "<group>";
+		};
+		C539E6971A355B90003B7CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C539E6981A355B90003B7CC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C539E67A1A355B90003B7CC7 /* GoogleMaterialDesignIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C539E69D1A355B90003B7CC7 /* Build configuration list for PBXNativeTarget "GoogleMaterialDesignIcons" */;
+			buildPhases = (
+				C539E6771A355B90003B7CC7 /* Sources */,
+				C539E6781A355B90003B7CC7 /* Frameworks */,
+				C539E6791A355B90003B7CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaterialDesignIcons;
+			productName = GoogleMaterialDesignIcons;
+			productReference = C539E67B1A355B90003B7CC7 /* GoogleMaterialDesignIcons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C539E6921A355B90003B7CC7 /* GoogleMaterialDesignIconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C539E6A01A355B90003B7CC7 /* Build configuration list for PBXNativeTarget "GoogleMaterialDesignIconsTests" */;
+			buildPhases = (
+				C539E68F1A355B90003B7CC7 /* Sources */,
+				C539E6901A355B90003B7CC7 /* Frameworks */,
+				C539E6911A355B90003B7CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C539E6951A355B90003B7CC7 /* PBXTargetDependency */,
+			);
+			name = GoogleMaterialDesignIconsTests;
+			productName = GoogleMaterialDesignIconsTests;
+			productReference = C539E6931A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C539E6731A355B90003B7CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yuji Hato";
+				TargetAttributes = {
+					C539E67A1A355B90003B7CC7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C539E6921A355B90003B7CC7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C539E67A1A355B90003B7CC7;
+					};
+				};
+			};
+			buildConfigurationList = C539E6761A355B90003B7CC7 /* Build configuration list for PBXProject "GoogleMaterialDesignIcons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C539E6721A355B90003B7CC7;
+			productRefGroup = C539E67C1A355B90003B7CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C539E67A1A355B90003B7CC7 /* GoogleMaterialDesignIcons */,
+				C539E6921A355B90003B7CC7 /* GoogleMaterialDesignIconsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C539E6791A355B90003B7CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C539E6891A355B90003B7CC7 /* Main.storyboard in Resources */,
+				C539E68E1A355B90003B7CC7 /* LaunchScreen.xib in Resources */,
+				C539E68B1A355B90003B7CC7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C539E6911A355B90003B7CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C539E6771A355B90003B7CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C539E6861A355B90003B7CC7 /* ViewController.swift in Sources */,
+				C539E6841A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodeld in Sources */,
+				C539E6811A355B90003B7CC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C539E68F1A355B90003B7CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C539E69A1A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C539E6951A355B90003B7CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C539E67A1A355B90003B7CC7 /* GoogleMaterialDesignIcons */;
+			targetProxy = C539E6941A355B90003B7CC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C539E6871A355B90003B7CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C539E6881A355B90003B7CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C539E68C1A355B90003B7CC7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C539E68D1A355B90003B7CC7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C539E69B1A355B90003B7CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C539E69C1A355B90003B7CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C539E69E1A355B90003B7CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleMaterialDesignIcons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C539E69F1A355B90003B7CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleMaterialDesignIcons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C539E6A11A355B90003B7CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleMaterialDesignIconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMaterialDesignIcons.app/GoogleMaterialDesignIcons";
+			};
+			name = Debug;
+		};
+		C539E6A21A355B90003B7CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleMaterialDesignIconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMaterialDesignIcons.app/GoogleMaterialDesignIcons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C539E6761A355B90003B7CC7 /* Build configuration list for PBXProject "GoogleMaterialDesignIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C539E69B1A355B90003B7CC7 /* Debug */,
+				C539E69C1A355B90003B7CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C539E69D1A355B90003B7CC7 /* Build configuration list for PBXNativeTarget "GoogleMaterialDesignIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C539E69E1A355B90003B7CC7 /* Debug */,
+				C539E69F1A355B90003B7CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C539E6A01A355B90003B7CC7 /* Build configuration list for PBXNativeTarget "GoogleMaterialDesignIconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C539E6A11A355B90003B7CC7 /* Debug */,
+				C539E6A21A355B90003B7CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C539E6821A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C539E6831A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodel */,
+			);
+			currentVersion = C539E6831A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodel */;
+			path = GoogleMaterialDesignIcons.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C539E6731A355B90003B7CC7 /* Project object */;
+}
