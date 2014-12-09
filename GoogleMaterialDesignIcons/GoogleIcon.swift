@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Yuji Hato. All rights reserved.
 //
 
+let GoogleIconName: String = "googleicon"
+
 struct GoogleIcon {
     
     static let e600 = "\u{e600}"
