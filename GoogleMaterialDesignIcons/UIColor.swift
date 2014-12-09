@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UIColor.swift
 //  GoogleMaterialDesignIcons
 //
 //  Created by 波戸 勇二 on 12/8/14.

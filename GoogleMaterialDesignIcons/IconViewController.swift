@@ -17,10 +17,6 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     
     override init () {
         super.init()
-        
-//        for i in 1..<GoogleIcon.icons().count {
-//            displayeds[i] = false
-//        }
     }
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -40,7 +36,7 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(IconCollectionViewCell.Identifier, forIndexPath: indexPath) as IconCollectionViewCell
-        
+        GoogleIcon.e600
         let row = indexPath.row
         let data = (GoogleIcon.icons()[row], displayeds[row])
         cell.setData(data)
