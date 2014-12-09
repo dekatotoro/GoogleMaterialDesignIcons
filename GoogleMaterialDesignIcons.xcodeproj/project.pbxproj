@@ -15,7 +15,7 @@
 		C539E68E1A355B90003B7CC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C539E68C1A355B90003B7CC7 /* LaunchScreen.xib */; };
 		C539E69A1A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539E6991A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift */; };
 		C54F64361A36F05300518F38 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F64351A36F05300518F38 /* UIColor.swift */; };
-		C54F64481A371BC400518F38 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = C54F64471A371BC400518F38 /* fonts */; };
+		C54F644A1A37264D00518F38 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = C54F64491A37264D00518F38 /* icon */; };
 		C56ACC651A36C27100862E80 /* GoogleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56ACC641A36C27100862E80 /* GoogleIcon.swift */; };
 		C5EC7F561A36D82900840DE6 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC7F551A36D82900840DE6 /* BaseCollectionViewCell.swift */; };
 		C5EC7F581A36D89600840DE6 /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC7F571A36D89600840DE6 /* IconCollectionViewCell.swift */; };
@@ -44,7 +44,7 @@
 		C539E6981A355B90003B7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C539E6991A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMaterialDesignIconsTests.swift; sourceTree = "<group>"; };
 		C54F64351A36F05300518F38 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		C54F64471A371BC400518F38 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		C54F64491A37264D00518F38 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
 		C56ACC641A36C27100862E80 /* GoogleIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleIcon.swift; sourceTree = "<group>"; };
 		C5EC7F551A36D82900840DE6 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5EC7F571A36D89600840DE6 /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -89,6 +89,8 @@
 		C539E67D1A355B90003B7CC7 /* GoogleMaterialDesignIcons */ = {
 			isa = PBXGroup;
 			children = (
+				C54F64491A37264D00518F38 /* icon */,
+				C56ACC641A36C27100862E80 /* GoogleIcon.swift */,
 				C54F64351A36F05300518F38 /* UIColor.swift */,
 				C539E6801A355B90003B7CC7 /* AppDelegate.swift */,
 				C539E6851A355B90003B7CC7 /* IconViewController.swift */,
@@ -98,7 +100,6 @@
 				C539E68A1A355B90003B7CC7 /* Images.xcassets */,
 				C539E68C1A355B90003B7CC7 /* LaunchScreen.xib */,
 				C539E6821A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodeld */,
-				C539E6A91A355E21003B7CC7 /* googleicon */,
 				C539E67E1A355B90003B7CC7 /* Supporting Files */,
 			);
 			path = GoogleMaterialDesignIcons;
@@ -127,15 +128,6 @@
 				C539E6981A355B90003B7CC7 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C539E6A91A355E21003B7CC7 /* googleicon */ = {
-			isa = PBXGroup;
-			children = (
-				C54F64471A371BC400518F38 /* fonts */,
-				C56ACC641A36C27100862E80 /* GoogleIcon.swift */,
-			);
-			name = googleicon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +211,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C539E6891A355B90003B7CC7 /* Main.storyboard in Resources */,
+				C54F644A1A37264D00518F38 /* icon in Resources */,
 				C539E68E1A355B90003B7CC7 /* LaunchScreen.xib in Resources */,
 				C539E68B1A355B90003B7CC7 /* Images.xcassets in Resources */,
-				C54F64481A371BC400518F38 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

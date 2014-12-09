@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB8E44CF-9B0B-4A21-9059-E866C6620473</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GoogleMaterialDesignIcons</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>33481610890CF72ACB35AEC2E723CFF7276AF007</key>
+		<string>github.com:dekatotoro/GoogleMaterialDesignIcons.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GoogleMaterialDesignIcons.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>33481610890CF72ACB35AEC2E723CFF7276AF007</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:dekatotoro/GoogleMaterialDesignIcons.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>33481610890CF72ACB35AEC2E723CFF7276AF007</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>33481610890CF72ACB35AEC2E723CFF7276AF007</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GoogleMaterialDesignIcons</string>
+		</dict>
+	</array>
+</dict>
+</plist>
