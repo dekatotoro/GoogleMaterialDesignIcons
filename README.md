@@ -20,14 +20,15 @@ Google Material Design Icons for iOS
 comming soon...
 
 ####Manually
-Add the `GoogleIcon.swift`, `googleicon.ttf` file to your project. 
-info.plist added `Fonts provided by application` key and specify the `googleicon.ttf` to Item0 value 
+Add the `GoogleIcon.swift`, `googleicon.ttf` file to your project.   
+info.plist added `Fonts provided by application` key and  
+specify the `googleicon.ttf` to Item0 value.
 
 ##Usage
 
-###Setup
 
-Please look at the googleicon.html, googleicon.html has been icon code definition.
+Please look at the googleicon.html.  
+googleicon.html has been icon code definition.  
 The constant of icon code is defined in GoogleIcon class, please use.
 
 ```swift
