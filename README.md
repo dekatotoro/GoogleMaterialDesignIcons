@@ -27,7 +27,7 @@ specify the `googleicon.ttf` to Item0 value.
 ##Usage
 
 
-Please look at the icon/googleicon.html. 
+Please look at the icon/googleicon.html.   
 googleicon.html has been icon code definition.  
 The constant of icon code is defined in GoogleIcon class, please use.
 
