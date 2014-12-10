@@ -44,7 +44,7 @@ hogeLabel.text = GoogleIcon.e600
 ```
 
 You can also be set font in the storyboard.
-![sample](Screenshots/GoogleMaterialDesignIconsFont.png)
+![sample](Screenshots/GoogleMaterialDesignIconsLabel.png)
 
 ## Requirements
 Requires iOS 7.0.
