@@ -9,7 +9,7 @@ GoogleMaterialDesignIcons
 )](https://github.com/dekatotoro/GoogleMaterialDesignIcons/issues?state=open)
 
 Google Material Design Icons Font for iOS
-It is based on ![https://github.com/google/material-design-icons](https://github.com/google/material-design-icons).  
+It is based on [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons).  
 it converts the material-design-icons svg file in the font file, it was easy to use.  
 
 ![sample](Screenshots/GoogleMaterialDesignIcons.gif)
