@@ -8,8 +8,12 @@ GoogleMaterialDesignIcons
 [![Issues](https://img.shields.io/github/issues/dekatotoro/GoogleMaterialDesignIcons.svg?style=flat
 )](https://github.com/dekatotoro/GoogleMaterialDesignIcons/issues?state=open)
 
-Google Material Design Icons for iOS
+Google Material Design Icons Font for iOS
+It is based on [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons).  
+it converts the material-design-icons svg file in the font file, it was easy to use.  
+**You can use the 1661 icons!**  
 
+<br>
 ![sample](Screenshots/GoogleMaterialDesignIcons.gif)
 
 ##Installation
@@ -25,7 +29,7 @@ specify the `googleicon.ttf` to Item0 value.
 ##Usage
 
 
-Please look at the googleicon.html.  
+Please look at the icon/googleicon.html.   
 googleicon.html has been icon code definition.  
 The constant of icon code is defined in GoogleIcon class, please use.
 
@@ -42,6 +46,9 @@ hogeLabel.textColor = UIColor.greenColor()
 hogeLabel.text = GoogleIcon.e600
 
 ```
+
+You can also be set font in the storyboard.
+![sample](Screenshots/GoogleMaterialDesignIconsLabel.png)
 
 ## Requirements
 Requires iOS 7.0.
