@@ -36,7 +36,7 @@ input, fieldset {
 input {
 	color: inherit;
 	line-height: 1.5;
-	height: 1.5em;
+	height: 1em;
 	padding: .25em 0;
 }
 input:focus {
@@ -47,7 +47,7 @@ input:focus {
 	font-size: 16px;
 	width: 15em;
 	padding-bottom: 1em;
-	margin-right: 4em;
+	margin-right: 1em;
 	margin-bottom: 1em;
 	float: left;
 	overflow: hidden;
@@ -97,16 +97,16 @@ p {
 	margin-right: 1em;
 }
 .mls {
-	margin-left: .25em;
+	margin-left: .1em;
 }
 .ptl {
 	padding-top: 1.5em;
 }
 .pbs, .pvs {
-	padding-bottom: .25em;
+	padding-bottom: .4em;
 }
 .pvs, .pts {
-	padding-top: .25em;
+	padding-top: .4em;
 }
 .unit {
 	float: left;
@@ -131,9 +131,9 @@ p {
 	display: none;
 }
 .textbox0 {
-	width: 3em;
+	width: 8em;
 	background: #f1f1f1;
-	padding: .25em .5em;
+	padding: .5em .5em;
 	line-height: 1.5;
 	height: 1.5em;
 }
@@ -143,8 +143,8 @@ p {
 	line-height: 1.5;
 }
 .fs0 {
-	font-size: 16px;
+	font-size: 12px;
 }
 .fs1 {
-	font-size: 48px;
+	font-size: 32px;
 }
