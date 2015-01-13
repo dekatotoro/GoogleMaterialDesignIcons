@@ -14,11 +14,12 @@ it converts the material-design-icons svg file in the font file, it was easy to 
 **You can use the 1661 icons!**  
 
 ##Benefits of using the Font
-Import is easier to project(Since held together in one file)
-Color easy to change
-Resistant to change size
-Management easier
-Put out in the text as part of the AttributedString
+- Import is easier to project(Since held together in one file)
+- Color easy to change
+- Resistant to change size
+- Management easier
+- Put out in the text as part of the AttributedString
+  
 
 <br>
 ![sample](Screenshots/GoogleMaterialDesignIcons.gif)
