@@ -8,10 +8,17 @@ GoogleMaterialDesignIcons
 [![Issues](https://img.shields.io/github/issues/dekatotoro/GoogleMaterialDesignIcons.svg?style=flat
 )](https://github.com/dekatotoro/GoogleMaterialDesignIcons/issues?state=open)
 
-Google Material Design Icons Font for iOS
+#Google Material Design Icons Font for iOS
 It is based on [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons).  
 it converts the material-design-icons svg file in the font file, it was easy to use.  
 **You can use the 1661 icons!**  
+
+##Benefits of using the Font
+Import is easier to project(Since held together in one file)
+Color easy to change
+Resistant to change size
+Management easier
+Put out in the text as part of the AttributedString
 
 <br>
 ![sample](Screenshots/GoogleMaterialDesignIcons.gif)
