@@ -13,6 +13,10 @@ It is based on [https://github.com/google/material-design-icons](https://github.
 it converts the material-design-icons svg file in the font file, it was easy to use.  
 **You can use the 1661 icons!**  
 
+<br>
+![sample](Screenshots/GoogleMaterialDesignIcons.gif)
+  
+
 ##Benefits of using the Font
 - Import is easier to project(Since held together in one file)
 - Color easy to change
@@ -20,9 +24,6 @@ it converts the material-design-icons svg file in the font file, it was easy to 
 - Management easier
 - Put out in the text as part of the AttributedString
   
-
-<br>
-![sample](Screenshots/GoogleMaterialDesignIcons.gif)
 
 ##Installation
 
