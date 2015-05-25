@@ -60,6 +60,12 @@ hogeLabel.text = GoogleIcon.e600
 You can also be set font in the storyboard.
 ![sample](Screenshots/GoogleMaterialDesignIconsLabel.png)
 
+To input font characters directly in the Interface Builder, do the following after selecting googlefont:
+
+1. Add the "Unicode Hex Input" input source under (System Preferences > Keyboard > Input Sources). 
+2. Hold down ```Option``` and type four hex digits to enter a Unicode character. <br/>
+   For example, you can ```Option``` + ```e648``` to enter the checkmark icon.
+
 ## Requirements
 Requires iOS 7.0.
 
