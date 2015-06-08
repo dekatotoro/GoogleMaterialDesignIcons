@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/dekatotoro"
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/dekatotoro/GoogleMaterialDesignIcons.git, :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/dekatotoro/GoogleMaterialDesignIcons.git", :tag => "1.0.0" }
   s.source_files = "Source/**/*.{h,m,swift}"
-  s.resources    = 'Icon/**/*.{ttf}'
+  s.resources    = "Icon/**/*.{ttf}"
   s.requires_arc = true
 end
 

@@ -28,7 +28,7 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>icon/fonts/googleicon.ttf</string>
+		<string>Icon/googleicon.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
