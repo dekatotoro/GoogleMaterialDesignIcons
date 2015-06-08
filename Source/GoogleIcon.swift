@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Yuji Hato. All rights reserved.
 //
 
-let GoogleIconName: String = "googleicon"
+public let GoogleIconName: String = "googleicon"
 
 public struct GoogleIcon {
     
