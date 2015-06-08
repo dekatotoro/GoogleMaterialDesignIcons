@@ -15,9 +15,7 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     
     var displayeds = [Bool](count:GoogleIcon.icons().count, repeatedValue:false)
     
-    override init () {
-        super.init()
-    }
+
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -35,7 +33,7 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     }
 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(IconCollectionViewCell.Identifier, forIndexPath: indexPath) as IconCollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(IconCollectionViewCell.Identifier, forIndexPath: indexPath) as! IconCollectionViewCell
         GoogleIcon.e600
         let row = indexPath.row
         let data = (GoogleIcon.icons()[row], displayeds[row])
