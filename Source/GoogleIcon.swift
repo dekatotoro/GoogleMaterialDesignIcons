@@ -8,7 +8,7 @@
 
 let GoogleIconName: String = "googleicon"
 
-struct GoogleIcon {
+public struct GoogleIcon {
     
     static let e600 = "\u{e600}"
     static let e601 = "\u{e601}"
