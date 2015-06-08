@@ -15,8 +15,8 @@
 		C539E68E1A355B90003B7CC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C539E68C1A355B90003B7CC7 /* LaunchScreen.xib */; };
 		C539E69A1A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539E6991A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift */; };
 		C54F64361A36F05300518F38 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F64351A36F05300518F38 /* UIColor.swift */; };
-		C54F644A1A37264D00518F38 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = C54F64491A37264D00518F38 /* icon */; };
-		C56ACC651A36C27100862E80 /* GoogleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56ACC641A36C27100862E80 /* GoogleIcon.swift */; };
+		C57954181B258E8100EF2F9C /* GoogleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57954171B258E8100EF2F9C /* GoogleIcon.swift */; };
+		C579541F1B258FCD00EF2F9C /* googleicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C579541E1B258FCD00EF2F9C /* googleicon.ttf */; };
 		C5EC7F561A36D82900840DE6 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC7F551A36D82900840DE6 /* BaseCollectionViewCell.swift */; };
 		C5EC7F581A36D89600840DE6 /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC7F571A36D89600840DE6 /* IconCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -44,8 +44,8 @@
 		C539E6981A355B90003B7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C539E6991A355B90003B7CC7 /* GoogleMaterialDesignIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMaterialDesignIconsTests.swift; sourceTree = "<group>"; };
 		C54F64351A36F05300518F38 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		C54F64491A37264D00518F38 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
-		C56ACC641A36C27100862E80 /* GoogleIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleIcon.swift; sourceTree = "<group>"; };
+		C57954171B258E8100EF2F9C /* GoogleIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleIcon.swift; path = Source/GoogleIcon.swift; sourceTree = "<group>"; };
+		C579541E1B258FCD00EF2F9C /* googleicon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = googleicon.ttf; path = Icon/fonts/googleicon.ttf; sourceTree = "<group>"; };
 		C5EC7F551A36D82900840DE6 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5EC7F571A36D89600840DE6 /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +71,8 @@
 		C539E6721A355B90003B7CC7 = {
 			isa = PBXGroup;
 			children = (
+				C579541B1B258F4E00EF2F9C /* Icon */,
+				C57954161B258E6B00EF2F9C /* Source */,
 				C539E67D1A355B90003B7CC7 /* GoogleMaterialDesignIcons */,
 				C539E6961A355B90003B7CC7 /* GoogleMaterialDesignIconsTests */,
 				C539E67C1A355B90003B7CC7 /* Products */,
@@ -89,8 +91,6 @@
 		C539E67D1A355B90003B7CC7 /* GoogleMaterialDesignIcons */ = {
 			isa = PBXGroup;
 			children = (
-				C54F64491A37264D00518F38 /* icon */,
-				C56ACC641A36C27100862E80 /* GoogleIcon.swift */,
 				C54F64351A36F05300518F38 /* UIColor.swift */,
 				C539E6801A355B90003B7CC7 /* AppDelegate.swift */,
 				C539E6851A355B90003B7CC7 /* IconViewController.swift */,
@@ -128,6 +128,22 @@
 				C539E6981A355B90003B7CC7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57954161B258E6B00EF2F9C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C57954171B258E8100EF2F9C /* GoogleIcon.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C579541B1B258F4E00EF2F9C /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				C579541E1B258FCD00EF2F9C /* googleicon.ttf */,
+			);
+			name = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C579541F1B258FCD00EF2F9C /* googleicon.ttf in Resources */,
 				C539E6891A355B90003B7CC7 /* Main.storyboard in Resources */,
-				C54F644A1A37264D00518F38 /* icon in Resources */,
 				C539E68E1A355B90003B7CC7 /* LaunchScreen.xib in Resources */,
 				C539E68B1A355B90003B7CC7 /* Images.xcassets in Resources */,
 			);
@@ -233,11 +249,11 @@
 			files = (
 				C539E6861A355B90003B7CC7 /* IconViewController.swift in Sources */,
 				C54F64361A36F05300518F38 /* UIColor.swift in Sources */,
-				C56ACC651A36C27100862E80 /* GoogleIcon.swift in Sources */,
 				C539E6841A355B90003B7CC7 /* GoogleMaterialDesignIcons.xcdatamodeld in Sources */,
 				C5EC7F561A36D82900840DE6 /* BaseCollectionViewCell.swift in Sources */,
 				C539E6811A355B90003B7CC7 /* AppDelegate.swift in Sources */,
 				C5EC7F581A36D89600840DE6 /* IconCollectionViewCell.swift in Sources */,
+				C57954181B258E8100EF2F9C /* GoogleIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
