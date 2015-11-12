@@ -12,7 +12,7 @@ class BaseCollectionViewCell : UICollectionViewCell {
     
     class var Identifier: String { return NSStringFromClass(self).componentsSeparatedByString(".").last! }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -41,6 +41,6 @@ class BaseCollectionViewCell : UICollectionViewCell {
     
     private func setDefaultSelectedBackgroundView() {
         self.selectedBackgroundView = UIView(frame: self.bounds)
-        self.selectedBackgroundView.backgroundColor = UIColor.ColorPalette.xECEFF1
+        self.selectedBackgroundView?.backgroundColor = UIColor.ColorPalette.xECEFF1
     }
 }

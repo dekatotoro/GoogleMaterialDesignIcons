@@ -16,7 +16,7 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     var displayeds = [Bool](count:GoogleIcon.icons().count, repeatedValue:false)
     
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
