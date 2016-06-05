@@ -36,7 +36,7 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(IconCollectionViewCell.Identifier, forIndexPath: indexPath) as! IconCollectionViewCell
         GoogleIcon.e600
         let row = indexPath.row
-        let data = (GoogleIcon.icons()[row], displayeds[row])
+        let data: Any = (GoogleIcon.icons()[row], displayeds[row])
         cell.setData(data)
         displayeds[row] = true
         return cell
