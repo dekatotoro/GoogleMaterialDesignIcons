@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GoogleMaterialDesignIcons"
-  s.version      = "2.3.0"
+  s.version      = "3.0.0"
   s.summary      = "It converts the material-design-icons svg file in the font file, it was easy to use."
   s.homepage     = "https://github.com/dekatotoro/GoogleMaterialDesignIcons"
   s.license      = { :type => "MIT", :file => "LICENSE" }
