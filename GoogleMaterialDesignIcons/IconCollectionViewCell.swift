@@ -12,24 +12,24 @@ import UIKit
 class IconCollectionViewCell : BaseCollectionViewCell {
     
 
-    class var Size: CGSize { return CGSizeZero }
+    class var Size: CGSize { return CGSize.zero }
     
     @IBOutlet weak var iconLabel: UILabel!
     
-    override func setData(data: Any) {
+    override func setData(_ data: Any) {
         if let iconData = data as? (String, Bool) {
             self.iconLabel.text = iconData.0
             self.iconLabel.textColor = self.getRandomColor()
             if !iconData.1 {
                 self.iconLabel.alpha = 0.2
-                UIView.animateWithDuration(0.6, animations: { () -> Void in
+                UIView.animate(withDuration: 0.6, animations: { () -> Void in
                     self.iconLabel.alpha = 1.0
                 })
             }
         }
     }
     
-    private func getRandomColor() -> UIColor{
+    fileprivate func getRandomColor() -> UIColor{
         let randomRed:CGFloat = CGFloat(drand48())
         let randomGreen:CGFloat = CGFloat(drand48())
         let randomBlue:CGFloat = CGFloat(drand48())

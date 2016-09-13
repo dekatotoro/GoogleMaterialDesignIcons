@@ -10,7 +10,7 @@ import UIKit
 
 class BaseCollectionViewCell : UICollectionViewCell {
     
-    class var Identifier: String { return NSStringFromClass(self).componentsSeparatedByString(".").last! }
+    class var Identifier: String { return NSStringFromClass(self).components(separatedBy: ".").last! }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -35,11 +35,11 @@ class BaseCollectionViewCell : UICollectionViewCell {
         setDefaultSelectedBackgroundView()
     }
     
-    func setData(data: Any) {
+    func setData(_ data: Any) {
         
     }
     
-    private func setDefaultSelectedBackgroundView() {
+    fileprivate func setDefaultSelectedBackgroundView() {
         self.selectedBackgroundView = UIView(frame: self.bounds)
         self.selectedBackgroundView?.backgroundColor = UIColor.ColorPalette.xECEFF1
     }

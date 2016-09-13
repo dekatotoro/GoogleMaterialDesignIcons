@@ -13,7 +13,7 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     
     @IBOutlet weak var collectionView : UICollectionView!
     
-    var displayeds = [Bool](count:GoogleIcon.icons().count, repeatedValue:false)
+    var displayeds = [Bool](repeating: false, count: GoogleIcon.icons().count)
     
 
     required init?(coder aDecoder: NSCoder) {
@@ -24,18 +24,17 @@ class IconViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         super.viewDidLoad()
     }
 
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return GoogleIcon.icons().count
     }
 
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(IconCollectionViewCell.Identifier, forIndexPath: indexPath) as! IconCollectionViewCell
-        GoogleIcon.e600
-        let row = indexPath.row
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: IconCollectionViewCell.Identifier, for: indexPath) as! IconCollectionViewCell
+        let row = (indexPath as NSIndexPath).row
         let data: Any = (GoogleIcon.icons()[row], displayeds[row])
         cell.setData(data)
         displayeds[row] = true
