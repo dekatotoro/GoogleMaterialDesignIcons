@@ -1,12 +1,9 @@
 GoogleMaterialDesignIcons
 =========================
 
-[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
-)](https://developer.apple.com/iphone/index.action)
-[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
-)](https://developer.apple.com/swift)
-[![Issues](https://img.shields.io/github/issues/dekatotoro/GoogleMaterialDesignIcons.svg?style=flat
-)](https://github.com/dekatotoro/GoogleMaterialDesignIcons/issues?state=open)
+| **Platform** | **Language** | **Issues** |
+|--------------|--------------|------------|
+| [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat)](https://developer.apple.com/iphone/index.action) | [![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat)](https://developer.apple.com/swift) | [![Issues](https://img.shields.io/github/issues/dekatotoro/GoogleMaterialDesignIcons.svg?style=flat)](https://github.com/dekatotoro/GoogleMaterialDesignIcons/issues?state=open) |
 
 #Google Material Design Icons Font for iOS
 It is based on [https://github.com/google/material-design-icons](https://github.com/google/material-design-icons).  
